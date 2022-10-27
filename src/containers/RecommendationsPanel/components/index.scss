@@ -1,0 +1,31 @@
+@import "@edx/paragon/scss/core/core";
+
+.recommended-course-card {
+  .pgn__card-wrapper-image-cap {
+    max-width: 7.188rem !important;
+    min-width: 7.188rem !important;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15), 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0.5rem;
+
+    .pgn__card-image-cap {
+      max-width: 99.01px;
+    }
+  }
+  .pgn__card-section {
+    padding: 0;
+  }
+  margin-top: 5px;
+}
+
+.panel-background {
+  background: $light-200;
+}
+
+.recommendations-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7.813rem;
+  background: $light-200;
+}
